@@ -1,3 +1,4 @@
+// Fetch flood data from Flask server
 function fetchFloodData() {
     fetch('/api/flood-data')
         .then(response => response.json())
@@ -28,7 +29,8 @@ function fetchFloodData() {
                     }
                 }
             });
-        });
+        })
+        .catch(error => console.error("Error fetching flood data:", error));
 }
 
 // Refresh the dashboard every 5 seconds
