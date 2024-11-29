@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1 {
+    color: #333;
+    border-bottom: 2px solid #ff5722;
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#dashboard {
+    margin-top: 20px;
+}
+
+#rainfallChart {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #e9f7ef;
+    padding: 10px;
+}
+
+#floodRisk {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ffe9e9;
+    display: inline-block;
+}
+
+#riskLevel {
+    color: #ff5722;
+    font-weight: bold;
+}
