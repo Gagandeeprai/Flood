@@ -1,5 +1,6 @@
+// Fetch flood data from Flask server
 function fetchFloodData() {
-    fetch('/api/flood-data')  // Request data from Flask backend
+    fetch('/api/flood-data')
         .then(response => response.json())
         .then(data => {
             // Update flood risk level
